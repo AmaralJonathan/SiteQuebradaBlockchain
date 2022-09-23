@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- Title -->
+	<title> EduZone - Education Collage & School Angular Template </title>
+	
+	<!-- Favicons Icon -->
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+	<!-- StyleSheets -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/scrollbar.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="plugins/jstree/dist/themes/default/style.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<!-- Our Custom CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	
+</head>
+<body data-spy="scroll" data-target=".nav-bar" data-offset="50">
+<div class="wrapper" id="tableofcontent">
+	<!-- Sidebar Holder -->
+	<nav id="nevbarleft">
+		<div class="side-nav full-height">
+			<div class="sidebar-header">
+				<h2><img src="images/logo.png" alt="logo"/></h2>
+			</div>
+			<div class="nav-bar">
+				<ul class="list-unstyled content-scroll components navbar-nav nav" id="download-button">
+					<li class="active"><a href="#introduction">Introduction</a></li>
+					<li><a href="#getting_started">Getting started</a></li>
+					<li><a href="#angular_setup">Angular Setup</a></li>
+					<li><a href="#folder_directories">Folder Structure</a></li>
+					<li><a href="#css_files">Css Files </a></li>
+					<li><a href="#our_product" class="scroll">Our Products </a></li>
+					<li><a href="#version_history">Version History</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Page Content Holder -->
+	<div id="content">
+		<nav class="navbar navbar-default top-nav-bar ">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				   <button type="button" id="sidebarCollapse" class="navbar-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+				</div>
+				<a href="https://support.w3itexperts.com" target="_blank" class="site-button support-button">Support</a>
+				<a href="https://1.envato.market/Wmz0M" target="_blank" class="site-button support-button">Buy Now</a>
+			</div>
+		</nav>
+		
+		<section class="app-brief slide-banner">
+			<div class="container">
+				<div class="section-header">
+					<h2>EduZone - Angular Template</h2>
+					<div class="colored-line"></div>
+					<div class="section-description">
+						EduZone -Education Collage & School Angular Template
+					</div>
+					<div class="colored-line"></div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Introduction -->
+		<section class="app-brief" id="introduction">
+			<div class="container center-align">
+				<h1>EduZone</h1>
+				<h3>Edu - Factory & Industrial Angular Template</h3>
+				<p>This documentation is last updated on 04 October 2021.</p>
+				<p>Thank you for purchasing this Angular template.</p>
+				<p><strong>If you like this template, Please support us by rating this template with 5 stars </strong> </p>
+			</div>
+		</section>
+
+		
+		<section class="app-brief grey-bg" id="getting_started">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Getting started -</h2>
+				</div>
+				<div class="">
+					<div class="row">
+						<div class="col-xs-12">
+							<p>Before you begin, make sure you have <b>Node</b> and an <b>npm package manager.</b> installed on your computer.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>Download node <b><a href="https://nodejs.org/en/download">nodejs.org.</a></b></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>Check your node version, run <b>node -v</b></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="app-brief" id="angular_setup">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Angular Setup - </h2>
+				</div>
+				<div class="">
+					<div class="row">
+						<div class="col-xs-12">
+							<p><p>Open terminal and run npm install -g @angular/cli</p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<p>Angular CLI Doc: <a href="https://cli.angular.io"><b>https://cli.angular.io</b></a></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<p></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<h4><b>Serve and build</b></h4>
+							<p>Use terminal and navigate to project root.Then run <code>npm install</code></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<h4><b>Development server</b></h4>
+							<p>Run ng serve for a dev server. Navigate to <code>http://localhost:4200/</code>. The app will automatically reload if you change any of the source files.</b></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<h4><b>Build for Production</b></h4>
+							<p>Run <code>ng build</code> to build the project. The build artifacts will be stored in the dist/ directory. Use the <code>-prod </code>flag for a production build.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="app-brief grey-bg" id="folder_directories">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Folder Structure -</h2>
+				</div>
+				<div class="">
+					<div id="dz_tree" class="tree-demo">
+						<ul>
+							<li data-jstree='{ "opened" : true }'>src
+								<ul>
+									<li data-jstree='{ "opened" : true }'>app
+										<ul>
+                    <li data-jstree='{ "opened" : true }'>blog
+										<ul>
+											<li data-jstree='{ "selected" : false }'>grid2</li>
+											<li data-jstree='{ "selected" : false }'>grid2-sidebar</li>
+											<li data-jstree='{ "selected" : false }'>grid2-sidebar-left</li>
+											<li data-jstree='{ "selected" : false }'>grid3</li>
+											<li data-jstree='{ "selected" : false }'>grid3-sidebar</li>
+											<li data-jstree='{ "selected" : false }'>grid3-sidebar-left</li>
+											<li data-jstree='{ "selected" : false }'>grid4</li>
+											<li data-jstree='{ "selected" : false }'>half-image</li>
+											<li data-jstree='{ "selected" : false }'>half-image-sidebar</li>
+											<li data-jstree='{ "selected" : false }'>half-image-sidebar-left</li>
+											<li data-jstree='{ "selected" : false }'>large-image</li>
+											<li data-jstree='{ "selected" : false }'>large-image-sidebar</li>
+											<li data-jstree='{ "selected" : false }'>large-image-sidebar-left</li>
+											<li data-jstree='{ "selected" : false }'>single</li>
+											<li data-jstree='{ "selected" : false }'>single-sidebar</li>
+											<li data-jstree='{ "selected" : false }'>single-sidebar-left</li>
+                      
+                      
+                      
+                      
+											<li data-jstree='{ "selected" : false }'>elements
+												<ul>
+													<li data-jstree='{ "selected" : false }'>accordians
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>accordian1</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>banners
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>banner1</li>
+                                <li data-jstree='{ "selected" : false }'>banner3</li>
+                                <li data-jstree='{ "selected" : false }'>banner5</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>blog
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>blog1</li>
+                                <li data-jstree='{ "selected" : false }'>blog2</li>
+                                <li data-jstree='{ "selected" : false }'>blog3</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>call-to-action
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>call-to-action1</li>
+                                <li data-jstree='{ "selected" : false }'>call-to-action2</li>
+                                <li data-jstree='{ "selected" : false }'>call-to-action3</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>clients
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>client1</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>comments
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>comments1</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>content-box
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>content1</li>
+                                <li data-jstree='{ "selected" : false }'>content2</li>
+                                <li data-jstree='{ "selected" : false }'>content3</li>
+                                <li data-jstree='{ "selected" : false }'>content4</li>
+                                <li data-jstree='{ "selected" : false }'>content5</li>
+                                <li data-jstree='{ "selected" : false }'>content6</li>
+                                <li data-jstree='{ "selected" : false }'>content7</li>
+                                <li data-jstree='{ "selected" : false }'>content8</li>
+                                <li data-jstree='{ "selected" : false }'>content9</li>
+                                <li data-jstree='{ "selected" : false }'>content10</li>
+                                <li data-jstree='{ "selected" : false }'>content11</li>
+                                <li data-jstree='{ "selected" : false }'>content12</li>
+                                <li data-jstree='{ "selected" : false }'>content13</li>
+                                <li data-jstree='{ "selected" : false }'>content14</li>
+                                <li data-jstree='{ "selected" : false }'>content15</li>
+                                <li data-jstree='{ "selected" : false }'>content16</li>
+                              </ul>
+                          </li>
+							<li data-jstree='{ "selected" : false }'>counter
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>counter1</li>
+                                <li data-jstree='{ "selected" : false }'>counter2</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>courses
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>courses1</li>
+                                <li data-jstree='{ "selected" : false }'>courses2</li>
+                                <li data-jstree='{ "selected" : false }'>courses3</li>
+                                <li data-jstree='{ "selected" : false }'>courses4</li>
+                                <li data-jstree='{ "selected" : false }'>courses5</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>events
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>events1</li>
+                                <li data-jstree='{ "selected" : false }'>events2</li>
+                                <li data-jstree='{ "selected" : false }'>events3</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>footer
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>footer1</li>
+                                <li data-jstree='{ "selected" : false }'>footer2</li>
+                                <li data-jstree='{ "selected" : false }'>footer3</li>
+                                <li data-jstree='{ "selected" : false }'>footer4</li>
+                                <li data-jstree='{ "selected" : false }'>footer5</li>
+                                <li data-jstree='{ "selected" : false }'>footer6</li>
+                                <li data-jstree='{ "selected" : false }'>footer7</li>
+                                <li data-jstree='{ "selected" : false }'>footer8</li>
+                                <li data-jstree='{ "selected" : false }'>footer9</li>
+                                <li data-jstree='{ "selected" : false }'>footer10</li>
+                                <li data-jstree='{ "selected" : false }'>footer11</li>
+                                <li data-jstree='{ "selected" : false }'>footer12</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>forms
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>comment-form1</li>
+                                <li data-jstree='{ "selected" : false }'>query-form</li>
+                                <li data-jstree='{ "selected" : false }'>registration-form1</li>
+                                <li data-jstree='{ "selected" : false }'>registration-form2</li>
+                                <li data-jstree='{ "selected" : false }'>search-form1</li>
+                                <li data-jstree='{ "selected" : false }'>search-form2</li>
+                                <li data-jstree='{ "selected" : false }'>search-form3</li>
+                                <li data-jstree='{ "selected" : false }'>search-form4</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>gallery
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>gallery1</li>
+                                <li data-jstree='{ "selected" : false }'>gallery2</li>
+                                <li data-jstree='{ "selected" : false }'>gallery3</li>
+                                <li data-jstree='{ "selected" : false }'>gallery4</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>header
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>header-dark1</li>
+                                <li data-jstree='{ "selected" : false }'>header-dark2</li>
+                                <li data-jstree='{ "selected" : false }'>header-dark3</li>
+                                <li data-jstree='{ "selected" : false }'>header-dark4</li>
+                                <li data-jstree='{ "selected" : false }'>header-dark5</li>
+                                <li data-jstree='{ "selected" : false }'>header-dark6</li>
+                                <li data-jstree='{ "selected" : false }'>header-light1</li>
+                                <li data-jstree='{ "selected" : false }'>header-light2</li>
+                                <li data-jstree='{ "selected" : false }'>header-light3</li>
+                                <li data-jstree='{ "selected" : false }'>header-light4</li>
+                                <li data-jstree='{ "selected" : false }'>header-light5</li>
+                                <li data-jstree='{ "selected" : false }'>header-light6</li>
+                                <li data-jstree='{ "selected" : false }'>header-light7</li>
+                                <li data-jstree='{ "selected" : false }'>header-light8</li>
+                                <li data-jstree='{ "selected" : false }'>header-light9</li>
+                                <li data-jstree='{ "selected" : false }'>header-light10</li>
+                                <li data-jstree='{ "selected" : false }'>header-light11</li>
+                                <li data-jstree='{ "selected" : false }'>header-light12</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>icon-box
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>icon-box1</li>
+                                <li data-jstree='{ "selected" : false }'>icon-box2</li>
+                                <li data-jstree='{ "selected" : false }'>icon-box3</li>
+                                <li data-jstree='{ "selected" : false }'>icon-box4</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>newsletter
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>newsletter1</li>
+                                <li data-jstree='{ "selected" : false }'>newsletter2</li>
+                                <li data-jstree='{ "selected" : false }'>newsletter3</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>price_table
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>price-table1</li>
+                                <li data-jstree='{ "selected" : false }'>price-table2</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>rev-slider
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>slider1</li>
+                                <li data-jstree='{ "selected" : false }'>slider2</li>
+                                <li data-jstree='{ "selected" : false }'>slider3</li>
+                                <li data-jstree='{ "selected" : false }'>slider4</li>
+                                <li data-jstree='{ "selected" : false }'>slider5</li>
+                                <li data-jstree='{ "selected" : false }'>slider6</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>services
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>services-element1.component</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>sliders
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>owl-slider1</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>team
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>team1</li>
+                                <li data-jstree='{ "selected" : false }'>team2</li>
+                                <li data-jstree='{ "selected" : false }'>team3</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>testimonial
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>testimonial1</li>
+                                <li data-jstree='{ "selected" : false }'>testimonial2</li>
+                                <li data-jstree='{ "selected" : false }'>testimonial3</li>
+                                <li data-jstree='{ "selected" : false }'>testimonial4</li>
+                              </ul>
+                          </li>
+													<li data-jstree='{ "selected" : false }'>widgets
+                              <ul>
+                                <li data-jstree='{ "selected" : false }'>category-list1</li>
+                                <li data-jstree='{ "selected" : false }'>our-gallery1</li>
+                                <li data-jstree='{ "selected" : false }'>recent-posts1</li>
+                                <li data-jstree='{ "selected" : false }'>tag-list1</li>
+                              </ul>
+                          </li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+                  <li data-jstree='{ "selected" : false }'>features
+                          <ul>
+                                <li data-jstree='{ "selected" : false }'>footer-style1</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style2</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style3</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style4</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style5</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style6</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style7</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style8</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style9</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style10</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style11</li>
+                                <li data-jstree='{ "selected" : false }'>footer-style12</li>
+                                <li data-jstree='{ "selected" : false }'>header-style1</li>
+                                <li data-jstree='{ "selected" : false }'>header-style2</li>
+                                <li data-jstree='{ "selected" : false }'>header-style3</li>
+                                <li data-jstree='{ "selected" : false }'>header-style4</li>
+                                <li data-jstree='{ "selected" : false }'>header-style5</li>
+                                <li data-jstree='{ "selected" : false }'>header-style6</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark1</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark2</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark3</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark4</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark5</li>
+                                <li data-jstree='{ "selected" : false }'>header-style-dark6</li>
+                          </ul>        
+                  </li>
+                  <li data-jstree='{ "selected" : false }'>home-coaching</li>
+                  <li data-jstree='{ "selected" : false }'>home-college</li>
+                  <li data-jstree='{ "selected" : false }'>home-kids-school</li>
+                  <li data-jstree='{ "selected" : false }'>home-kindergarten</li>
+                  <li data-jstree='{ "selected" : false }'>home-language-school</li>
+                  <li data-jstree='{ "selected" : false }'>home-online-course</li>
+                  <li data-jstree='{ "selected" : false }'>home-school</li>
+                  <li data-jstree='{ "selected" : false }'>home-university</li>
+                  
+                  <li data-jstree='{ "selected" : false }'>shop
+                          <ul>
+                                <li data-jstree='{ "selected" : false }'>cart</li>
+                                <li data-jstree='{ "selected" : false }'>checkout</li>
+                                <li data-jstree='{ "selected" : false }'>login</li>
+                                <li data-jstree='{ "selected" : false }'>product-details</li>
+                                <li data-jstree='{ "selected" : false }'>register</li>
+                                <li data-jstree='{ "selected" : false }'>shop</li>
+                                <li data-jstree='{ "selected" : false }'>shop-sidebar</li>
+                                <li data-jstree='{ "selected" : false }'>wishlist</li>
+                          </ul>        
+                  </li>
+                  
+                  
+											<li data-jstree='{ "type" : "file" }'>app.component.css</li>
+											<li data-jstree='{ "type" : "file" }'>app.component.html</li>
+											<li data-jstree='{ "type" : "file" }'>app.component</li>
+											<li data-jstree='{ "type" : "file" }'>app.module</li>
+											<li data-jstree='{ "type" : "file" }'>app-routing.module</li>
+										</ul>
+									
+									<li data-jstree='{ "opened" : true }'>assets
+										<ul>
+											<li data-jstree='{ "selected" : false }'>css</li>
+											<li data-jstree='{ "selected" : false }'>demo</li>
+											<li data-jstree='{ "selected" : false }'>fonts</li>
+											<li data-jstree='{ "selected" : false }'>images</li>
+											<li data-jstree='{ "selected" : false }'>js</li>
+											<li data-jstree='{ "selected" : false }'>plugins
+												<ul>
+													<li data-jstree='{ "selected" : false }'>animate</li>
+													<li data-jstree='{ "selected" : false }'>bootstrap</li>
+													<li data-jstree='{ "selected" : false }'>bootstrap-select</li>
+													<li data-jstree='{ "selected" : false }'>bootstrap-touchspin</li>
+													<li data-jstree='{ "selected" : false }'>button-effects</li>
+													<li data-jstree='{ "selected" : false }'>countdown</li>
+													<li data-jstree='{ "selected" : false }'>counter</li>
+													<li data-jstree='{ "selected" : false }'>flaticon</li>
+													<li data-jstree='{ "selected" : false }'>fontawesome</li>
+													<li data-jstree='{ "selected" : false }'>imagesloaded</li>
+													<li data-jstree='{ "selected" : false }'>lightgallery</li>
+													<li data-jstree='{ "selected" : false }'>line-awesome</li>
+													<li data-jstree='{ "selected" : false }'>magnific-popup</li>
+													<li data-jstree='{ "selected" : false }'>masonry</li>
+													<li data-jstree='{ "selected" : false }'>owl-carousel</li>
+													<li data-jstree='{ "selected" : false }'>rangeslider</li>
+													<li data-jstree='{ "selected" : false }'>revolution</li>
+													<li data-jstree='{ "selected" : false }'>scroll</li>
+													<li data-jstree='{ "selected" : false }'>sidebar</li>
+													<li data-jstree='{ "selected" : false }'>switcher</li>
+													<li data-jstree='{ "selected" : false }'>themify</li>
+													<li data-jstree='{ "selected" : false }'>wow</li>
+												</ul>
+											</li>
+                      <li data-jstree='{ "selected" : false }'>skin</li>
+                      <li data-jstree='{ "selected" : false }'>video</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<br/>
+					<ul class="list-files">
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>angular.json</p>
+								</div>
+								<div class="col-xs-8">
+									<p>Used for configuration of project specific settings. You can add external styles and scripts, change the output folder, add assets, add environment files and more.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>node_modules</p>
+								</div>
+								<div class="col-xs-8">
+									<p>All external modules used are here. Do not mess with this folder, as it is auto-generated by using npm install.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>package.json</p>
+								</div>
+								<div class="col-xs-8">
+									<p>Contains all dependencies used for production and development.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>src</p>
+								</div>
+								<div class="col-xs-8">
+									<p>Contains all Angular Typescript code, assets and basically everything the end user will have access to.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>tsconfig.json</p>
+								</div>
+								<div class="col-xs-8">
+									<p>TypeScript compiler configuration.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		
+		<section class="app-brief grey-bg" id="css_files">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Css Files - </h2>
+				</div>
+				<div class="">
+					<img src="images/screenshot/8.png">
+				</div>
+				<div class="mt-2">
+					<p>These all file import in <code>styles.css</code></p>
+					<ul class="list-files">
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>plugins</p>
+								</div>
+								<div class="col-xs-8">
+									<p>This css include all css</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>style.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p>Main Style CSS file is globally used</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>templete.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p>This CSS used in particular/some pages</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<h3>Skin Css</h3>
+					<ul class="list-files">
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-1.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color1.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-2.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color2.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-3.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color3.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-4.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color4.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-5.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color5.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-6.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color6.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-7.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color7.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row">
+								<div class="col-xs-4">
+									<p>skin-8.css</p>
+								</div>
+								<div class="col-xs-8">
+									<p><img src="images/color/color8.png" alt=""></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Our Products -->
+		<section class="app-brief" id="our_product">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Our Products - </h2>
+				</div>
+				<div class="row other-theme">
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/0zjyE">
+								<img src="images/product/wp-beglide.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/0zjyE">
+										BeGlide: Corporate Business Consultant Agency WordPress Theme 
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/NE0QP">
+								<img src="images/product/wp-bheem.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/NE0QP">
+										Bheem : Construction WordPress Theme RTL Ready 
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/WEdAZ">
+								<img src="images/product/wp-beautyzone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/WEdAZ">
+										BeautyZone: Beauty Spa Salon WordPress Theme
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/6MAKK">
+								<img src="images/product/wp-bucklin.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href=" ">
+										Bucklin - Creative Personal Blog WordPress Theme 
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/oJLNY">
+								<img src="images/product/archia.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/oJLNY">
+										Archia - Architecture and Interior Design RTL Ready Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/XEnGb">
+								<img src="images/product/agency.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/XEnGb">
+										Agency | Creative Multipurpose Bootstrap 4 HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/3zZ9y">
+								<img src="images/product/constructzilla .png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/3zZ9y">
+										ConstructZilla : Construction, Renovation & Building HTML Template With RTL Ready
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/ZEKLg">
+								<img src="images/product/cargozone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/ZEKLg">
+										CargoZone - Transport, Cargo, Logistics & Business Multipurpose HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/JZVO7">
+								<img src="images/product/yogazone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/JZVO7">
+										YogaZone: Yoga, Fitness & Meditation Mobile Responsive Bootstrap Html Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/0zjxY">
+								<img src="images/product/gardanzone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/0zjxY">
+										GardenZone | Agriculture, Gardening & Landscaping Responsive HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/VdYZJ">
+								<img src="images/product/construct.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/VdYZJ">
+										Construct : Construction, Building & Maintenance Business Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/REnO2">
+								<img src="images/product/butterfly.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/REnO2">
+										ButterFly : Spa, Beauty Salon & Massage Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/bQNDm">
+								<img src="images/product/curv.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/bQNDm">
+										CURV: One Page Multipurpose Parallax
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/zObPW">
+								<img src="images/product/beautyzone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/zObPW">
+										BeautyZone: Beauty Spa Salon HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/3zZmk">
+								<img src="images/product/sportszone.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/3zZmk">
+										SportsZone: Sports Club, New & Game Magazine Mobile Responsive Bootstrap HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/3zZmk">
+								<img src="images/product/medico.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/3zZmk">
+										MediCo.- Hospital and Doctor Clinic HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/g56Wg">
+								<img src="images/product/jobboard.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/g56Wg">
+										Job Board: Job Portal | Job WebSite HTML Wireframe
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/1d1Nm">
+								<img src="images/product/industry.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/1d1Nm">
+										Industry - Factory & Industrial HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/qoKKy">
+								<img src="images/product/lemars.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/qoKKy">
+										Le Mars - Minimal Personal Blog HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/A53RN">
+								<img src="images/product/bizmap.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/A53RN">
+										BizMap - Business Directory Listing HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/EYb39">
+								<img src="images/product/umang_academy.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/EYb39">
+										Umang Academy : Kindergarden, Kids Play School Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/EAeOQ">
+								<img src="images/product/kelsey.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/EAeOQ">
+										Kelsey - Creative Personal Blog HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/xoqvR">
+								<img src="images/product/bucklin.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/xoqvR">
+										Bucklin - Creative Personal Blog HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 m-b30">
+						<div class="product-port-bx">
+							<a target="_blank" href="https://1.envato.market/WvZqM">
+								<img src="images/product/smartclass.png" alt=""/>
+							</a>
+							<div class="product-info">
+								<h4 class="title">
+									<a target="_blank" href="https://1.envato.market/WvZqM">
+										SmartClass | Education Agency Choching & Tuition HTML Template
+									</a>
+								</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Custom Work -->
+		<section class="app-brief" id="custom_work" style="background-image: url(images/bg1.jpg); background-position: left center; background-size: cover;">
+			<div class="container left-align">
+				<div class="col-md-12 text-center custom-info">
+					<h2 class="m-t0">Do You Need Help To Customization</h2>
+					<h3 class="text-primary">After Purchase A Template...</h3>
+					<h4>You Will Start Customizing According Your Requirement<br/> <span class="text-primary">BUT</span> What If You Don't Know</h4>
+					<h3 class="text-black">SOLUTION IS <span class="text-primary"><u>HIRE DexignZone</u></span></h3>
+					<div class="hire">
+						<h4><span class="text-black">Hire Same Team For </span> <span class="text-primary">Quality Customization</span></h4>
+						<ul>
+							<li>We Will Customize Template According To Your Requirement</li>
+							<li>We Will Upload On Server And Make Sure Your Website is Live</li>
+						</ul>
+						<div class="gmail-box">
+							<a href="skype:rahulxarma?chat" class="gmail"><i class="fa fa-skype"></i>rahulxarma</a>
+							<a target="_blank" href="mailto:dexignzones@gmail.com" class="gmail"><i class="fa fa-envelope"></i> dexignzones@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="app-brief change-log grey-bg" id="version_history">
+			<div class="container left-align">
+				<div class="section-header">
+					<h2 class="dark-text">Version History - <small class="topbutton"><a href="#tableofcontent">#back to top</a></small></h2>
+				</div>
+				<h3> <strong>04 October 2021</strong> </h3>
+				<ul>
+					<li>Updated in angular 12 </li>
+					<li>Resolve css bugs </li>
+				</ul>
+				<h3> <strong>03 September 2020</strong> </h3>
+				<ul>
+					<li>New - Created & Upload EduZone </li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Copyright DexignZone -->
+		<footer class="app-brief">
+			<div class="container">
+				<p class="copyright">
+					© 2021 Dexingzone , All Rights Reserved
+				</p>
+			</div>
+		</footer>
+		
+	</div>
+</div>
+<!-- JavaScript files ===== -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/load.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script src="js/scrollbar.min.js"></script>
+<script src="plugins/jstree/dist/jstree.min.js"></script>
+<script>
+// prettyPhoto
+	jQuery(document).ready(function(){
+		jQuery('.dzClickload').click(function(){
+			jQuery('.dzClickload').removeClass('active');
+			jQuery(this).addClass('active');
+		});
+		
+		 
+		jQuery(".content-scroll").mCustomScrollbar({
+			setWidth:false,
+			setHeight:false,
+			axis:"y"
+		});	
+		
+		$(".full-height").css("height", $(window).height());
+		
+	}); 
+	$("#dz_tree").jstree({
+		"core": {
+			"themes": {
+				"responsive": false
+			}
+		},
+		"types": {
+			"default": {
+				"icon": "fa fa-folder"
+			},
+			"file": {
+				"icon": "fa fa-file-text"
+			}
+		},
+		"plugins": ["types"]
+	});
+	
+</script>
+</body>
+</html>
